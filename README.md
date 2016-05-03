@@ -79,7 +79,7 @@ Arguments can be given by command line and/or written in a file with one argumen
   L1 normalized. Idea from [andersbll/neural_artistic_style](https://github.com/andersbll/neural_artistic_style).
 
 **Output options**:
-* `-output_image`: Name of the output image. Default is `out.png` which will produce output images of the form *out-<frameIdx>.png* for the single-pass and *out-<frameIdx>_<passIdx>.png* for the multi-pass algorithm.
+* `-output_image`: Name of the output image. Default is `out.png` which will produce output images of the form *out-\<frameIdx\>.png* for the single-pass and *out-\<frameIdx\>_\<passIdx\>.png* for the multi-pass algorithm.
 * `-output_folder`: Directory where the output images should be saved.
 * `-print_iter`: Print progress every `print_iter` iterations. Set to 0 to disable printing.
 * `-save_iter`: Save the image every `save_iter` iterations. Set to 0 to disable saving intermediate results.
